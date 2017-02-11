@@ -5,7 +5,7 @@ ADD ./nginx.conf /etc/nginx/nginx.conf
 ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/mime.types /etc/nginx/mime.types
 
 # H5BP basic
-ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/basic.conf /etc/nginx/h5bp/basic.conf
+ADD ./h5bp/basic.conf /etc/nginx/h5bp/basic.conf
 
 # HB5P - locations
 ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/location/cache-busting.conf /etc/nginx/h5bp/location/cache-busting.conf
