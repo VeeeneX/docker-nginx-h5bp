@@ -15,12 +15,12 @@ ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/loca
 
 # H5BP - directives
 ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/cache-file-descriptors.conf /etc/nginx/h5bp/directive-only/cache-file-descriptors.conf
-ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/cross-domain-insecure.conf /etc/nginx/h5bp/directive-only/h5bp/directive-only/cross-domain-insecure.conf
-ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/extra-security.conf /etc/nginx/h5bp/directive-only/h5bp/directive-only/extra-security.conf
-ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/no-transform.conf /etc/nginx/h5bp/directive-only/h5bp/directive-only/no-transform.conf
-ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/ssl-stapling.conf /etc/nginx/h5bp/directive-only/h5bp/directive-only/ssl-stapling.conf
-ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/ssl.conf /etc/nginx/h5bp/directive-only/h5bp/directive-only/ssl.conf
-ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/x-ua-compatible.conf /etc/nginx/h5bp/directive-only/h5bp/directive-only/x-ua-compatible.conf
+ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/cross-domain-insecure.conf /etc/nginx/h5bp/directive-only/cross-domain-insecure.conf
+ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/extra-security.conf /etc/nginx/h5bp/directive-only/extra-security.conf
+ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/no-transform.conf /etc/nginx/h5bp/directive-only/no-transform.conf
+ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/ssl-stapling.conf /etc/nginx/h5bp/directive-only/ssl-stapling.conf
+ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/ssl.conf /etc/nginx/h5bp/directive-only/ssl.conf
+ADD https://raw.githubusercontent.com/h5bp/server-configs-nginx/master/h5bp/directive-only/x-ua-compatible.conf /etc/nginx/h5bp/directive-only/x-ua-compatible.conf
 
 EXPOSE 80 443
 
